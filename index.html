@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway Dots' rel='stylesheet'>
   <title>Thermostat</title>
 </head>
 <body>
   <section>
-    <h1 id="temperature"></h1>
+    <center>
+      <div class="center">
+    <div class="current-temp">
+      <h1 id="temperature">thermostat</h1>
+      </div>
     <p>
-      <button id="temperature-up">Increase Temperature</button>
-      <button id="temperature-down">Decrease Temperature</button>
-      <button id="temperature-reset">Reset Temperature</button>
+      <button id="temperature-up">+</button>
+      <button id="temperature-down">-</button>
+      <button id="temperature-reset">reset</button>
+      <button id="powersaving-on">psm on</button>
+      <button id="powersaving-off">psm off</button>
     </p>
-    <p>power saving mode is <span id="power-saving-status">on</span></p>
-    <p>
-      <button id="powersaving-on">Power Saving Mode On</button>
-      <button id="powersaving-off">Power Saving Mode Off</button>
-    </p>
+    <div class="power-saving">powersavingmodeison</div>
+
+
+    <h1 id="ct">Current temperature: <span id="current-temp"></span></h1>
+    <form id="select-city">
+      <input id="current-city" type="text" placeholder="Enter a city" value="London"></input>
+      <input type="submit"></input>
+    </form></div></center>
   </section>
-  <script src="src/thermostat.js"></script>
+  <script src="./jquery.js"></script>
+  <script src="./src/interface.js"></script>
+  <script src="./src/thermostat.js"></script>
 </body>
 </html>

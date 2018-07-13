@@ -1,0 +1,88 @@
+section {
+  font-family: 'Raleway Dots';
+
+}
+
+body {}
+
+span {
+  font-size: 20px;
+}
+.current-temp {
+  font-size: 105px;
+}
+
+#temperature {
+  font-size: 105px;
+}
+
+#ct {
+  font-size: 20px;
+}
+
+#temperature-up {
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#temperature-down {
+  background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#temperature-reset {
+  background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#powersaving-on {
+  background-color: #580c87;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#powersaving-off {
+  background-color: #f29602;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.power-saving {
+  font-family: 'Raleway Dots';
+  background-color: #ff3399;
+    border: none;
+    color: white;
+    padding: 15px 169px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
