@@ -5,7 +5,7 @@ The goal was to build a thermostat that can increase and decrease the temperatur
 The thermostat connects with OpenWeatherMap API to retrieve and display the current temperature for any city requested.
 
 # Image
-[PUT IMAGE HERE]
+![Thermostat](https://github.com/danieljonesdmj/thermostat/blob/master/Thermostat.png)
 
 # Tech
 
